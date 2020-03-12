@@ -39,7 +39,6 @@ public class Utils {
         }
     }
 
-//    Sorts DLM in ascending order
     public static DefaultListModel<String> sortWordsAsc(DefaultListModel<String> listOfWords) {
       String temp;
       int n = listOfWords.getSize();
@@ -58,7 +57,6 @@ public class Utils {
       return listOfWords;
     }
 
-//    Reverse the order of a DLM
     public static DefaultListModel<String> reverseOrder(DefaultListModel<String> words) {
       DefaultListModel<String> b = new DefaultListModel<String>();
       int n = words.getSize();
